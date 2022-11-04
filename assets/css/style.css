@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;1,500&family=Playfair+Display&family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -15,7 +16,7 @@ body {
     font-size: 250%;
     margin-left: 50px;
     line-height: 75px;
-    font-family: sans-serif;
+    font-family: 'Playfair Display', sans-serif;
 }
 
 #logo{
@@ -31,7 +32,7 @@ color: black;
     float: right;
     margin-right: 50px;
     list-style: none;
-    font-family: sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     padding-top: 1.15%;
 }
 
