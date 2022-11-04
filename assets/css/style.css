@@ -17,3 +17,11 @@ body {
     line-height: 75px;
     font-family: sans-serif;
 }
+
+#logo{
+color: black;
+}
+
+#menu {
+    font-size: 200%;
+}
