@@ -54,12 +54,11 @@ color: black;
 }
 
 #hero-text {
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Arimo', sans-serif;
     text-transform: uppercase;
-    height: 250px;
-    width: 250px;
-    font-size: 200%;
-    text-align: center;
-    padding-left: 300px;
-    padding-top: 100px;
+    font-size: 250%;
+    letter-spacing: 2px;
+    padding-top: 150px;
+    float: left;
+    margin-left: 150px;
 }
