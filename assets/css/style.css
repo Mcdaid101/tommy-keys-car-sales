@@ -64,7 +64,12 @@ color: black;
 
 #hero2 {
     font-family: 'Playfair Display', sans-serif;
-    padding-bottom: 50px;
+    font-size: 150%;
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 20%;
+    margin-top: 20%;
+    margin-right: 20%;
 }
 
 #news {
