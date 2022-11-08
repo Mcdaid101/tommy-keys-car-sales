@@ -46,7 +46,10 @@ color: black;
 }
 
 #hero-image {
-    height: 600px;
+    height: 1200px;
     width: 100%;
     background: url('../images/hero-image1.jpg') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
 }
+
