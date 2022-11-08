@@ -53,3 +53,13 @@ color: black;
     overflow: hidden;
 }
 
+#hero-text {
+    font-family: 'Playfair Display', sans-serif;
+    text-transform: uppercase;
+    height: 250px;
+    width: 250px;
+    font-size: 200%;
+    text-align: center;
+    padding-left: 300px;
+    padding-top: 100px;
+}
