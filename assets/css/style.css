@@ -148,7 +148,7 @@ a{
 }
 
 footer {
-    height: 100px;
+    height: 75px;
     width: 100%;
     position: fixed;
     background-color: whitesmoke;
@@ -167,8 +167,4 @@ footer {
 .social-media > li {
     color: black;
  display: inline;
-}
-
-.social-media {
-
 }
