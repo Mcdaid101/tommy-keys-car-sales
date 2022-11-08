@@ -8,7 +8,7 @@
 
 body {
     font-family: sans-serif;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 #logo {
@@ -54,11 +54,22 @@ color: black;
 }
 
 #hero-text {
-    font-family: 'Arimo', sans-serif;
-    text-transform: uppercase;
-    font-size: 250%;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 260%;
     letter-spacing: 2px;
     padding-top: 150px;
     float: left;
     margin-left: 150px;
+}
+
+#news {
+ background-color: whitesmoke;
+}
+
+#news-header {
+    float: left;
+    font-size: 250%;
+    margin-left: 50px;
+    line-height: 75px;
+    font-family: 'Playfair Display', sans-serif;
 }
