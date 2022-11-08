@@ -186,9 +186,11 @@ footer {
    margin: 50px;
 }
 
-#form-span {
+#form-div {
     width: 250px;
     height: 800px;
     float: left;
+    margin-left: 100px;
     margin-top: 100px;
+    background-color: red;
 }
