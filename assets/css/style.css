@@ -178,3 +178,10 @@ footer {
     background-size: cover;
     overflow: hidden;
 }
+
+#map {
+   height: 300px;
+   width: 300px; 
+   float: right;
+   margin: 50px;
+}
