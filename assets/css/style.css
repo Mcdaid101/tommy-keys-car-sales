@@ -147,6 +147,7 @@ a{
     background-size: cover;
 }
 
+/* footer */
 footer {
     height: 75px;
     width: 100%;
@@ -168,6 +169,15 @@ footer {
     color: black;
  display: inline;
 }
+
+/*showroom.html*/
+ #showroom-image {
+    background: url('../images/hero-image2.1.jpg') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    height: 1000px;
+    width: 100%;
+ }
 
 /*contact.html*/
 
