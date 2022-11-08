@@ -99,3 +99,13 @@ a{
     font-family: 'Playfair Display', sans-serif;
 }
 
+#left-circle {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
