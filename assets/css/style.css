@@ -73,7 +73,18 @@ color: black;
 }
 
 #hero3 {
-    
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 150%;
+    text-align: center;
+}
+
+#hero3 a:hover {
+    border-bottom: 1px solid #e55d5d;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 #news {
