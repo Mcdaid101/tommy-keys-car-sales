@@ -93,7 +93,6 @@ a{
 
 #news-header {
     text-align: center;
-   
     font-size: 250%;
     line-height: 75px;
     font-family: 'Playfair Display', sans-serif;
@@ -101,12 +100,18 @@ a{
 
 #left-circle {
     float: left;
-    margin-top: 75px;
+    margin-left: 50px;
     width: 300px;
     height: 300px;
     padding: 30px;
     border-style: solid;
     border-color: black;
     border-width: 1px;
+    border-radius: 50%;
+}
+
+#left-circle-cover {
+    background: url('../images/car-news.jpg') no-repeat center center;
+    height: 100%;
     border-radius: 50%;
 }
