@@ -171,11 +171,15 @@ footer {
 }
 
 /*showroom.html*/
- #showroom-image {
-    background: url('../images/hero-image2.1.jpg') no-repeat center center;
-    background-size: cover;
-    overflow: hidden;
-    height: 1000px;
+
+ #showroom-photos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+ }
+
+ #showroom-photos > img {
     width: 100%;
  }
 
