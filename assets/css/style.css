@@ -121,6 +121,13 @@ a{
     background-color: whitesmoke;
    }
 
+   #about-header {
+    text-align: center;
+    font-size: 250%;
+    line-height: 75px;
+    font-family: 'Playfair Display', sans-serif;
+}
+
 #right-circle {
     float: right;
     margin-right: 50px;
