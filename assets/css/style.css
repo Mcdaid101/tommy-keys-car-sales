@@ -92,14 +92,16 @@ a{
 }
 
 #news-header {
-    float: left;
+    text-align: center;
+   
     font-size: 250%;
-    margin-left: 50px;
     line-height: 75px;
     font-family: 'Playfair Display', sans-serif;
 }
 
 #left-circle {
+    float: left;
+    margin-top: 75px;
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -107,5 +109,4 @@ a{
     border-color: black;
     border-width: 1px;
     border-radius: 50%;
-    margin: 0 auto;
 }
