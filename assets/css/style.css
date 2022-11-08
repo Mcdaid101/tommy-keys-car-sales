@@ -185,3 +185,10 @@ footer {
    float: right;
    margin: 50px;
 }
+
+#form-span {
+    width: 250px;
+    height: 800px;
+    float: left;
+    margin-top: 100px;
+}
