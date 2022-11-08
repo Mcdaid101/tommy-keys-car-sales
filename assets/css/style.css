@@ -62,6 +62,11 @@ color: black;
     margin-left: 150px;
 }
 
+#hero2 {
+    font-family: 'Playfair Display', sans-serif;
+    padding-bottom: 50px;
+}
+
 #news {
  background-color: whitesmoke;
 }
