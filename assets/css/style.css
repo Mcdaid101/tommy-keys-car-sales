@@ -162,12 +162,17 @@ footer {
 .social-media {
     color: black;
     text-align: center;
-    word-spacing: 5px;
+    word-spacing: 50px;
 }
 
 .social-media > li {
     color: black;
  display: inline;
+}
+
+.footer-clear {
+    text-align: center;
+   border: 1px solid black;
 }
 
 /*showroom.html*/
