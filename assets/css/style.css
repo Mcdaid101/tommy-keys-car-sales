@@ -166,9 +166,13 @@ footer {
 }
 
 .social-media > li {
+    font-size: 200%;
+    margin: 1%;
+    padding: 3%;
     color: black;
- display: inline;
+    display: inline;
 }
+
 
 .footer-clear {
     text-align: center;
