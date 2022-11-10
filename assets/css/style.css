@@ -149,7 +149,7 @@ a{
 
 /* footer */
 footer {
-    height: 75px;
+    height: 60px;
     width: 100%;
     position: fixed;
     background-color: rgb(203, 203, 203);
@@ -178,6 +178,7 @@ footer {
     text-align: center;
    border: 1px solid black;
 }
+
 
 /*showroom.html*/
 
