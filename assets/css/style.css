@@ -64,22 +64,24 @@ color: black;
 
 #hero2 {
     font-family: 'Playfair Display', sans-serif;
-    font-size: 150%;
+    font-size: 200%;
     text-align: center;
     padding-top: 10%;
     padding-left: 20%;
     margin-top: 20%;
     margin-right: 20%;
+    color: #e55d5d;
 }
 
 #hero3 {
     font-family: 'Playfair Display', sans-serif;
-    font-size: 150%;
+    font-size: 200%;
     text-align: center;
+    color: #e55d5d;
 }
 
 #hero3 a:hover {
-    border-bottom: 1px solid #e55d5d;
+    border-bottom: 1px solid #e5cc5d;
 }
 
 a{
