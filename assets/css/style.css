@@ -202,6 +202,8 @@ footer {
    width: 600px; 
    float: right;
    margin: 50px;
+   font-family: 'Playfair Display', sans-serif;
+   font-size: 150%;
 }
 
 #form-div {
@@ -213,6 +215,7 @@ footer {
     float: left;
     margin-left: 100px;
     margin-top: 100px;
-    background-color: grey;
+    font-size: 150%;
+    font-family: 'Playfair Display', sans-serif;
 }
   
