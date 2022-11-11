@@ -198,6 +198,14 @@ footer {
     vertical-align: middle;
 }
 
+/*responses 2 instead of 4 columns*/
+@media (max-width: 800px){
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
 
 
 
