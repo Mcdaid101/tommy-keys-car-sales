@@ -175,37 +175,15 @@ footer {
 
 /*showroom.html*/
 
-* {
-    box-sizing: border-box;
+.showroom-photos {
+    clear: both;
+    line-height: 0;
+    column-count: 5;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+.showroom-photos img {
+    width: 100%;
 }
-
-/* 4 equal columns to sit beside eachother */
-
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
-
-/*responses 2 instead of 4 columns*/
-@media (max-width: 800px){
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
 
 
 
