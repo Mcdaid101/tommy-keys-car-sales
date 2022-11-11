@@ -239,6 +239,10 @@ footer {
     font-family: 'Playfair Display', sans-serif;
 }
   
-#buttons {
-    font-size: 120%;
-}
+/* about */
+ #youtube {
+   clear: both;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
