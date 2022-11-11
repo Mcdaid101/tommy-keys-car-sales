@@ -240,9 +240,11 @@ footer {
 }
   
 /* about */
- #youtube {
-   clear: both;
-   display: flex;
-   align-items: center;
-   justify-content: center;
- }
+.youtube h2 {
+    text-align: center;
+}
+
+.youtube iframe{
+    margin-top: 125px;
+    margin-left: 25px;
+}
