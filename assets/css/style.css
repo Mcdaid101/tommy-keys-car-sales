@@ -140,27 +140,6 @@ a{
     background-size: cover;
 }
 
-/* bottom of home */
-
-.flex-container {
-    display:flex;
-    flex-direction: row;
-    font-size: 30px;
-    text-align: center;
-}
-
-.flex-item-left {
-    background-color: #e55d5d;
-    padding: 10px;
-    flex: 50%;
-}
-
-.flex-item-right {
-    background-color: navy;
-    padding: 10px;
-    flex: 50%;
-}
-
 /* footer */
 footer {
     height: 60px;
@@ -240,11 +219,22 @@ footer {
 }
   
 /* about */
-.youtube h2 {
+.youtube{
+    overflow:hidden;
+}
+
+.youtube h2{
+ text-align: center;
+ margin-top: 100px;
+}
+
+.youtube h3, p{
     text-align: center;
+    overflow: hidden;
+    font-size: 120%;
 }
 
 .youtube iframe{
-    margin-top: 125px;
+    margin-top: 100px;
     margin-left: 25px;
 }
