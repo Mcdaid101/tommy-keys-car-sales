@@ -90,8 +90,8 @@ a{
 }
 
 #news {
- background-color: whitesmoke;
-}
+    background-color: whitesmoke;
+   }
 
 #news-header {
     text-align: center;
@@ -138,6 +138,27 @@ a{
     height: 100%;
     border-radius: 50%;
     background-size: cover;
+}
+
+/* bottom of home */
+
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-item-left {
+    background-color: #e55d5d;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-right {
+    background-color: navy;
+    padding: 10px;
+    flex: 50%;
 }
 
 /* footer */
