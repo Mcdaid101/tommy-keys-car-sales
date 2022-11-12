@@ -205,3 +205,10 @@ footer {
     background-color: whitesmoke;
     color: #e55d5d;
 }
+
+/*media queries*/
+@media screen and (max-width: 800px){
+    .showroom-photos {
+        column-count: 2;
+    }
+}
