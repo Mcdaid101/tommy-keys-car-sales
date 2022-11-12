@@ -89,6 +89,10 @@ a{
     color: inherit;
 }
 
+.background-filter {
+    
+}
+
 /* footer */
 footer {
     height: 60px;
@@ -138,7 +142,7 @@ footer {
 /*contact.html*/
 
 #contact-image {
-    height: 1000px;
+    height: 950px;
     width: 100%;
     background: url('../images/hero-image2.1.jpg') no-repeat center center;
     background-size: cover;
@@ -149,6 +153,7 @@ footer {
   display: flex;
   flex-direction: row;
   padding: 50px;
+  
 }
 
 .contact-div div{
@@ -211,4 +216,11 @@ footer {
     .showroom-photos {
         column-count: 2;
     }
+
+    .contact-div {
+        flex-wrap: wrap;
+    }
 }
+
+
+
