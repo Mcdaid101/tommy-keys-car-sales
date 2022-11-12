@@ -11,6 +11,7 @@ body {
     background-color: whitesmoke;
 }
 
+
 #logo {
     float: left;
     font-size: 250%;
@@ -24,7 +25,7 @@ color: black;
 }
 
 #menu {
-    font-size: 200%;
+    font-size: 150%;
 }
 
 #menu li {
@@ -89,6 +90,12 @@ color: black;
     font-family: 'Playfair Display', sans-serif;
     font-size: 200%;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+#hero4 a:hover {
+    border-bottom: 1px solid #e5cc5d;
 }
 
 a{
@@ -201,7 +208,8 @@ footer {
 
 .youtube {
  display: flex;
- flex-direction: column;
+ flex-direction: row;
+ flex-wrap: wrap;
  padding: 50px;
 }
 
@@ -228,12 +236,17 @@ footer {
         column-count: 2;
     }
 
-    #hero-text, #hero2, #hero3 {
+    #hero-text, #hero2, #hero3, #hero4 {
         font-size: 75%;
     }
 
     .social-media > li{
         font-size: 150%;
+    }
+
+    .header {
+        clear: left;
+        float: left;
     }
 }
 
