@@ -85,6 +85,12 @@ color: black;
     border-bottom: 1px solid #e5cc5d;
 }
 
+#hero4 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+
 a{
     text-decoration: none;
     color: inherit;
@@ -222,12 +228,8 @@ footer {
         column-count: 2;
     }
 
-    .contact-div {
-        flex-wrap: wrap;
-    }
-
     #hero-text, #hero2, #hero3 {
-        font-size: 50%;
+        font-size: 75%;
     }
 
     .social-media > li{
