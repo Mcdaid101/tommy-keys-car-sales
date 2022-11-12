@@ -196,7 +196,12 @@ footer {
    text-align: center;
 }
 
-.youtube p, h3 {
+.youtube p {
+    background-color: whitesmoke;
+    color: #e55d5d;
+}
+
+.youtube h3 {
     background-color: whitesmoke;
     color: #e55d5d;
 }
