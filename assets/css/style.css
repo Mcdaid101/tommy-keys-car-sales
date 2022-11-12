@@ -225,6 +225,14 @@ footer {
     .contact-div {
         flex-wrap: wrap;
     }
+
+    #hero-text, #hero2, #hero3 {
+        font-size: 50%;
+    }
+
+    .social-media > li{
+        font-size: 150%;
+    }
 }
 
 
