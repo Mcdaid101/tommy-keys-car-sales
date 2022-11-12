@@ -58,27 +58,27 @@ color: black;
     width: 100%;
     font-size: 260%;
     letter-spacing: 2px;
-    padding-top: 150px;
+    margin-top: 125px;
+    margin-bottom: 75px;
     text-align: center;
-
+   
 }
 
 #hero2 {
     font-family: 'Playfair Display', sans-serif;
     font-size: 200%;
     text-align: center;
-    padding-top: 10%;
-    padding-left: 20%;
-    margin-top: 20%;
-    margin-right: 20%;
-    color: #e55d5d;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 #hero3 {
     font-family: 'Playfair Display', sans-serif;
     font-size: 200%;
     text-align: center;
-    color: #e55d5d;
+    margin-top: 50px;
+    margin-bottom: 500px;
+   
 }
 
 #hero3 a:hover {
@@ -91,9 +91,9 @@ a{
 }
 
 .background-filter {
-    backdrop-filter: blur(0px) saturate(200%);
-    -webkit-backdrop-filter: blur(0px) saturate(200%);
-    background-color: rgba(255, 255, 255, 0.17);
+    backdrop-filter: blur(0px) saturate(100%);
+    -webkit-backdrop-filter: blur(0px) saturate(100%);
+    background-color: rgba(255, 255, 255, 0.29);
     border-radius: 12px;
     border: 1px solid rgba(209, 213, 219, 0.3);
 }
