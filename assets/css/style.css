@@ -89,62 +89,11 @@ a{
     color: inherit;
 }
 
-#news {
-    background-color: whitesmoke;
-   }
-
-#news-header {
-    text-align: center;
-    font-size: 250%;
-    line-height: 75px;
-    font-family: 'Playfair Display', sans-serif;
-}
-
-#left-circle {
-    float: left;
-    margin-left: 50px;
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    border-radius: 50%;
-}
-
-#left-circle-cover {
-    background: url('../images/car-news.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-    background-size: cover;
-}
-
-#about {
-    background-color: whitesmoke;
-   }
-
-#right-circle {
-    width: 300px;
-    height: 300px;
-    padding:50px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    border-radius: 50%;
-}
-
-#right-circle-cover {
-    background: url('../images/car-salesman.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-    background-size: cover;
-}
-
 /* footer */
 footer {
     height: 60px;
     width: 100%;
-    position: fixed;
+    
     background-color: rgb(203, 203, 203);
     padding: 1em;
     bottom: 0;
@@ -219,22 +168,36 @@ footer {
 }
   
 /* about */
-.youtube{
-    overflow:hidden;
-}
 
-.youtube h2{
- text-align: center;
- margin-top: 100px;
-}
 
-.youtube h3, p{
-    text-align: center;
+#y-image {
+    background: url('../images/car-salesman.jpg') no-repeat center center;
+    height: 1200px;
+    width: 100%;
+    background-size: cover;
     overflow: hidden;
-    font-size: 120%;
 }
 
-.youtube iframe{
-    margin-top: 100px;
-    margin-left: 25px;
+#y-image h2 {
+    text-align: center;
+    font-size: 200%;
+    color: #e55d5d;
+}
+
+.youtube {
+ display: flex;
+ flex-direction: column;
+ padding: 50px;
+}
+
+.youtube div{
+   margin-top: 50px ;
+   margin: auto;
+   font-size: 200%;
+   text-align: center;
+}
+
+.youtube p, h3 {
+    background-color: whitesmoke;
+    color: #e55d5d;
 }
