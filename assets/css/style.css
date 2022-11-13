@@ -218,6 +218,9 @@ footer {
     margin-top: 10px;
 }
 
+#y-image-h2 i {
+    color: gold;
+}
 .iframe-container {
     position: relative;
     width: 100%;
