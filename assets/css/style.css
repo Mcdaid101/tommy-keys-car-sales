@@ -265,6 +265,15 @@ footer {
     .contact-div {
         display: flex;
         flex-direction: column;
+        font-size: 50%;
+    }
+
+    .contact-div map {
+        font-size: 50%;
+        height: 300px;
+        width: 300px; 
+        margin-top: 10px;
+        text-align: center;
     }
 }
 
