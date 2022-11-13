@@ -248,6 +248,10 @@ footer {
         column-count: 2;
     }
 
+    .home{
+        font-size: 150%;
+    }
+
     #hero-text, #hero2, #hero3, #hero4 {
         font-size: 75%;
     }
@@ -283,7 +287,8 @@ footer {
     #contact-image {
         height: 900px;
     }
+
+    .header {
+        font-size: 75%;
+    }
 }
-
-
-
