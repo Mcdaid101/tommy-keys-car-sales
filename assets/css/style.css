@@ -261,6 +261,11 @@ footer {
     #y-image-h2 {
         font-size: 100%;
     }
+
+    .contact-div {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
