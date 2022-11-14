@@ -1,7 +1,7 @@
 ## Table of contents
 * [Purpose](#Purpose)
-* [User Experience](#UserExperience)
-* [Structure](#Structure)
+* [User Experience](#User-Experience)
+* [Structure and Design](#Structure)
 
 # Purpose
 I built this website as my first project for the code institutes full stack development and e-commerce applications course. 
@@ -14,7 +14,7 @@ You can find a link to the live website [here](https://mcdaid101.github.io/tommy
 This website was built for Thomas Keys, a car dealership owner in the North West of Ireland. Mr Keys asked for a website which would be fully responsive and run across a multitude of devices such as phones, tablets and desktops and which would display his business in a positive light and bring more customers to the dealership. Mr Keys wanted a website to show his cars that were for sale, make it easy for customers to find the dealership and make contacting the dealership simple and also show people the story of his dealership and what they were about. 
 
 
-# UserExperience
+# User Experience
 
 ## Target Audience 
 * People looking to buy a new Hyundai Car 
@@ -48,7 +48,7 @@ This website was built for Thomas Keys, a car dealership owner in the North West
 2. I want users to get to know my business. 
 3. I want users to know where my business is located. 
 
-# Structure and Design 
+# Structure and Design  
 Each page on the site has the same header with the Tommy Keys Car Sales logo and the same navigation bar containing a home button, showrooom button, contact button and an about button. Similarly to the header navigation bar, each page has the same footer which contains links to Tommy Key's social media platforms. 
 ## The website has four pages: 
 1. Home page containing a hero image with links to booking a test drive and to view the showroom 
