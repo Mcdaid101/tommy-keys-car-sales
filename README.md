@@ -1,7 +1,7 @@
 ## Table of contents
 * [Purpose](#Purpose)
 * [User Experience](#UserExperience)
-* []()
+* [Structure](#Structure)
 
 # Purpose
 I built this website as my first project for the code institutes full stack development and e-commerce applications course. 
@@ -47,6 +47,27 @@ This website was built for Thomas Keys, a car dealership owner in the North West
 1. I want users to be able to contact the business easily.
 2. I want users to get to know my business. 
 3. I want users to know where my business is located. 
+
+# Structure and Design 
+Each page on the site has the same header with the Tommy Keys Car Sales logo and the same navigation bar containing a home button, showrooom button, contact button and an about button. Similarly to the header navigation bar, each page has the same footer which contains links to Tommy Key's social media platforms. 
+## The website has four pages: 
+1. Home page containing a hero image with links to booking a test drive and to view the showroom 
+2. Showroom containing a gallery of cars 
+3. Contact contains a contact form with the option of booking a test drive and a map with the location of the business
+4. About contains a link to a youtube video about the dealership 
+## Design Choices
+The website was designed to look modern and futuristic and appealing to those looking for new sleek vehicles. The colors whitesmoke and the greys used are meant to replicate those of modern car showrooms, while the hero images used show modern Hyundai advertisements that are eye catching and draw the users attention. 
+
+## Wireframes:
+### Home 
+![Website Mock Up](assets/readme.images/hscreenshot.png)
+### Showroom 
+![Website Mock Up](assets/readme.images/showscreenshots%20.png)
+### Contact 
+![Website Mock Up](assets/readme.images/contactscreenshot.png)
+### About 
+![Website Mock Up](assets/readme.images/about.screenshot.png)
+
 
 
 
