@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;1,500&family=Playfair+Display&family=Roboto&display=swap');
 
+/* Index.html */
 * {
     margin: 0;
     padding: 0;
@@ -171,7 +172,7 @@ footer {
   display: flex;
   flex-direction: row;
   padding: 50px;
-  
+  gap: 25px;
 }
 
 .contact-div div{
@@ -275,7 +276,7 @@ footer {
     .contact-div {
         display: flex;
         flex-direction: column;
-        font-size: 50%;
+        font-size: 55%;
         clear: both;
         gap: 50px;
     }
