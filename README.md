@@ -10,6 +10,7 @@ I built this website from scratch using the knowledge I gained from the course w
 You can find a link to the live website [here](https://mcdaid101.github.io/tommy-keys-car-sales/).	
 
 ## Tommy Keys Car Sales
+![Website Mock Up](assets/readme.images/Multi%20Screen%20screenshot%20.png)
 This website was built for Thomas Keys, a car dealership owner in the North West of Ireland. Mr Keys asked for a website which would be fully responsive and run across a multitude of devices such as phones, tablets and desktops and which would display his business in a positive light and bring more customers to the dealership. Mr Keys wanted a website to show his cars that were for sale, make it easy for customers to find the dealership and make contacting the dealership simple and also show people the story of his dealership and what they were about. 
 
 
@@ -42,5 +43,11 @@ This website was built for Thomas Keys, a car dealership owner in the North West
 1. I want to view the online showroom to see what cars are available.
 2. I want to check out the business's social medias which are linked to the site. 
 3. I want to learn more about the business through their videos. 
+### As the site owner:
+1. I want users to be able to contact the business easily.
+2. I want users to get to know my business. 
+3. I want users to know where my business is located. 
+
+
 
 
