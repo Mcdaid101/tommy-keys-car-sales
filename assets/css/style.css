@@ -95,6 +95,15 @@ color: black;
     margin-bottom: 200px;
 }
 
+#hero5 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 200%;
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    margin-bottom: 200px;
+}
+
 #hero4 a:hover {
     border-bottom: 1px solid #e5cc5d;
 }
@@ -197,11 +206,11 @@ footer {
 /* about */
 
 .filter {
-    backdrop-filter: blur(1px) saturate(180%);
-    -webkit-backdrop-filter: blur(1px) saturate(180%);
-    background-color: rgba(255, 255, 255, 0.39);
+    backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.71);
     border-radius: 12px;
-    border: 1px solid rgba(209, 213, 219, 0.3);;
+    border: 1px solid rgba(209, 213, 219, 0.3);
 }
 #y-image {
     background: url('../images/car-salesman.jpg') no-repeat center center;
@@ -266,8 +275,12 @@ footer {
         font-size: 150%;
     }
 
-    #hero-text, #hero2, #hero3, #hero4 {
+    #hero-text, #hero2, #hero3, #hero4, #hero5 {
         font-size: 75%;
+    }
+
+    #hero5 {
+        text-transform: uppercase;
     }
 
     .social-media > li{

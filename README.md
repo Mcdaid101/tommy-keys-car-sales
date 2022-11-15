@@ -16,6 +16,10 @@
  * [Languages](#languages)
  * [Tools and Frameworks](#tools-and-frameworks)
 
+ 5. [Features](#Features)
+ * [Logo and navigation bar](#logo-and-navigation-bar)
+ 
+
 # Purpose
 I built this website as my first project for the code institutes full stack development and e-commerce applications course. 
 I built this website from scratch using the knowledge I gained from the course where I studied the basics of HTML and CSS. 
@@ -52,6 +56,7 @@ This website was built for Thomas Keys, a car dealership owner in the North West
 ### As a returning user:
 1. I want to be able to submit a call back request on the contact form. 
 2. I want to be able to book a test drive for a new car that is coming out. 
+3. I want to find out what days and times the dealership is open. 
 ### As a frequent user:
 1. I want to view the online showroom to see what cars are available.
 2. I want to check out the business's social medias which are linked to the site. 
@@ -75,7 +80,7 @@ The website was designed to look modern and futuristic and appealing to those lo
 For my elements with hover options I used a yellow colour (#e5cc5d) and a red colour (#e55d5d) to highlight being interacted with. 
 
 ## Fonts
-The main font family used is imported from the Google Fonts website and is called 'Playfair Display', this font has been used extensively throughout the website as it looks professional and suits the theme of the website any text areas are in 'sans serif' and those which are less important. 
+The main font family used is imported from the Google Fonts website and is called 'Playfair Display', this font has been used extensively throughout the website as it looks professional and suits the theme of the website any other text areas are in 'sans serif' mainly which are less important and serve as non heading elements and text areas. 
 
 ## Wireframes
 ### Home 
@@ -99,10 +104,64 @@ The main font family used is imported from the Google Fonts website and is calle
 * Google Fonts 
 * Font Awesome
 * GlassMorphism Generator 
+* Vs Code in browser
+
+# Features
+This website contains 4 webpages
+
+## Logo and navigation bar 
+![Logo and navigation bar](assets/readme.images/logo.nav.bar.png)
+* The logo and nav bar are on each page 
+* The nav bar and logo are fully responsive on every device screen size
+* It includes links to the Home page through clicking on the logo and the Home button along with links to the showroom, contact and about pages
+* When hovered over their is a red line to indicate you are interacting with it 
+
+## Footer
+![Logo and navigation bar](assets/readme.images/footer.png)
+* The footer is also present on every page 
+* The footer contains a link to Facebook, Twitter, Instagram, Youtube and Tiktok
+* It is fully responsive to different screen sizes 
 
 
+## Home page
+![Home Page](assets/readme.images/home.page.png.png)
+* This is the home page the first page users see
+* Users have a link to the contact page through the book a test drive link and a link to the showroom to view other cars 
 
+## Showroom 
+![Showroom Page](assets/readme.images/showroom.page.png)
+* Showroom contains a gallery of cars 
+* The gallery is fully responsive to any device screen 
 
+## Contact 
+![Contact Page](assets/readme.images/contact.page.png)
+* The contact page gives users the opportunity to contact the dealership or for the dealership to contact them
+* The contact page contains a contact form with the option of booking a test drive 
+* Telephone numbers, email and opening times are also present 
+* An embedded location of the dealership on Google maps can also be used on the contact page 
+* This page is fully responsive to any device screen 
 
+## Form 
+![Contact Page](assets/readme.images/form.png)
+* The form is used as a contact point for users 
+* Once their details are submitted the dealership can ring them back 
+* It also allows them to book a test drive through a radio button
+* Fully responsive to any device screen size 
+
+## Map 
+![Contact Page](assets/readme.images/map.png)
+* An embedded google maps location of the dealership 
+* Fully responsive to any device screen size 
+
+## About 
+![About Page](assets/readme.images/top.about.page.png)
+* The About page gives users more information about Tommy Keys Car Sales and gives a bit of history behind the company
+* An embedded youtube video tells the story of Tommy Keys Car Sales 
+* This page is fully responsive to any device screen 
+
+## Youtube video
+![Contact Page](assets/readme.images/youtubevid.png)
+* An embedded youtube video of the story of Tommmy Keys car sales
+* Fully responsive to any device screen size 
 
 
