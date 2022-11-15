@@ -1,7 +1,20 @@
 ## Table of contents
-* [Purpose](#Purpose)
-* [User Experience](#User-Experience)
-* [Structure and Design](#Structure)
+1. [Purpose](#Purpose)
+
+2. [User Experience](#User-Experience)
+ * [Target Audience](#target-audience)
+ * [User Expectations](#User-expectations)
+ * [User Stories](#user-stories)
+
+3. [Structure and Design](#Structure-and-Design)
+ * [Website Structure](#website-structure)
+ * [Colour](#Colour)
+ * [Fonts](#Fonts)
+ * [Wireframes](#Wireframes)
+
+ 4. [Technology Used](Technology-Used)
+ * [Languages](#languages)
+ * [Tools and Frameworks](#tools-and-frameworks)
 
 # Purpose
 I built this website as my first project for the code institutes full stack development and e-commerce applications course. 
@@ -50,15 +63,21 @@ This website was built for Thomas Keys, a car dealership owner in the North West
 
 # Structure and Design  
 Each page on the site has the same header with the Tommy Keys Car Sales logo and the same navigation bar containing a home button, showrooom button, contact button and an about button. Similarly to the header navigation bar, each page has the same footer which contains links to Tommy Key's social media platforms. 
-## The website has four pages: 
+
+## Website Structure 
 1. Home page containing a hero image with links to booking a test drive and to view the showroom 
 2. Showroom containing a gallery of cars 
 3. Contact contains a contact form with the option of booking a test drive and a map with the location of the business
 4. About contains a link to a youtube video about the dealership 
-## Design Choices
-The website was designed to look modern and futuristic and appealing to those looking for new sleek vehicles. The colors whitesmoke and the greys used are meant to replicate those of modern car showrooms, while the hero images used show modern Hyundai advertisements that are eye catching and draw the users attention. 
 
-## Wireframes:
+## Colour
+The website was designed to look modern and futuristic and appealing to those looking for new sleek vehicles. The colors whitesmoke (#f5f5f5) and regular grey are the main colors of each webpage are used to replicate the colour theme of most modern car showrooms. Modern car Showrooms are full of light and bright white shades which highlight the cars inside and make them the center of attention, something I have tried to recreate in this website.
+For my elements with hover options I used a yellow colour (#e5cc5d) and a red colour (#e55d5d) to highlight being interacted with. 
+
+## Fonts
+The main font family used is imported from the Google Fonts website and is called 'Playfair Display', this font has been used extensively throughout the website as it looks professional and suits the theme of the website any text areas are in 'sans serif' and those which are less important. 
+
+## Wireframes
 ### Home 
 ![Website Mock Up](assets/readme.images/hscreenshot.png)
 ### Showroom 
@@ -67,6 +86,21 @@ The website was designed to look modern and futuristic and appealing to those lo
 ![Website Mock Up](assets/readme.images/contactscreenshot.png)
 ### About 
 ![Website Mock Up](assets/readme.images/about.screenshot.png)
+
+# Technology Used 
+
+## Languages 
+* HTML 
+* CSS 
+
+## Tools and Frameworks
+* Git 
+* Github 
+* Google Fonts 
+* Font Awesome
+* GlassMorphism Generator 
+
+
 
 
 

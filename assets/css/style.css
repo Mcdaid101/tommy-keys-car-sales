@@ -9,7 +9,7 @@
 
 body {
     font-family: sans-serif;
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
 }
 
 
@@ -211,6 +211,16 @@ footer {
     overflow: hidden;
 }
 
+#text {
+    font-size: 150%;
+    backdrop-filter: blur(8px) saturate(200%);
+    -webkit-backdrop-filter: blur(8px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.78);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    margin-top: 100px;
+}
+
 #y-image-h2 {
     text-align: center;
     font-size: 200%;
@@ -292,6 +302,9 @@ footer {
         height: 900px;
     }
 
+    #text {
+        font-size: 90%;
+    }
     .header {
         font-size: 75%;
     }
