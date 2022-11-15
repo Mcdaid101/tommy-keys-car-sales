@@ -18,7 +18,22 @@
 
  5. [Features](#Features)
  * [Logo and navigation bar](#logo-and-navigation-bar)
+ * [Footer](#footer)
+ * [Home Page](#home-page)
+ * [Showroom](#showroom)
+ * [Contact](#contact)
+ * [Form](#form)
+ * [Map](#map)
+ * [About](#about)
+ * [Youtube video](#youtube-video)
+
+ 6. [Validation](#validation)
+ * [HTML validation](#html-validation)
+ * [CSS validation](#css-validation)
+
+ 7. [Performance](#performance)
  
+<br>
 
 # Purpose
 I built this website as my first project for the code institutes full stack development and e-commerce applications course. 
@@ -29,7 +44,7 @@ You can find a link to the live website [here](https://mcdaid101.github.io/tommy
 ## Tommy Keys Car Sales
 ![Website Mock Up](assets/readme.images/Multi%20Screen%20screenshot%20.png)
 This website was built for Thomas Keys, a car dealership owner in the North West of Ireland. Mr Keys asked for a website which would be fully responsive and run across a multitude of devices such as phones, tablets and desktops and which would display his business in a positive light and bring more customers to the dealership. Mr Keys wanted a website to show his cars that were for sale, make it easy for customers to find the dealership and make contacting the dealership simple and also show people the story of his dealership and what they were about. 
-
+<br>
 
 # User Experience
 
@@ -65,6 +80,7 @@ This website was built for Thomas Keys, a car dealership owner in the North West
 1. I want users to be able to contact the business easily.
 2. I want users to get to know my business. 
 3. I want users to know where my business is located. 
+<br>
 
 # Structure and Design  
 Each page on the site has the same header with the Tommy Keys Car Sales logo and the same navigation bar containing a home button, showrooom button, contact button and an about button. Similarly to the header navigation bar, each page has the same footer which contains links to Tommy Key's social media platforms. 
@@ -91,6 +107,7 @@ The main font family used is imported from the Google Fonts website and is calle
 ![Website Mock Up](assets/readme.images/contactscreenshot.png)
 ### About 
 ![Website Mock Up](assets/readme.images/about.screenshot.png)
+<br>
 
 # Technology Used 
 
@@ -108,6 +125,10 @@ The main font family used is imported from the Google Fonts website and is calle
 
 # Features
 This website contains 4 webpages
+<br>
+
+<details><summary>Expand for Screenshots of each page and feature</summary>
+<p>
 
 ## Logo and navigation bar 
 ![Logo and navigation bar](assets/readme.images/logo.nav.bar.png)
@@ -117,14 +138,14 @@ This website contains 4 webpages
 * When hovered over their is a red line to indicate you are interacting with it 
 
 ## Footer
-![Logo and navigation bar](assets/readme.images/footer.png)
+![Footer](assets/readme.images/footer.png)
 * The footer is also present on every page 
 * The footer contains a link to Facebook, Twitter, Instagram, Youtube and Tiktok
 * It is fully responsive to different screen sizes 
 
 
 ## Home page
-![Home Page](assets/readme.images/home.page.png.png)
+![Home Page](assets/readme.images/home.page.png)
 * This is the home page the first page users see
 * Users have a link to the contact page through the book a test drive link and a link to the showroom to view other cars 
 
@@ -163,5 +184,68 @@ This website contains 4 webpages
 ![Contact Page](assets/readme.images/youtubevid.png)
 * An embedded youtube video of the story of Tommmy Keys car sales
 * Fully responsive to any device screen size 
+
+</p>
+</details>
+<br>
+
+# Validation 
+
+## HTML validation 
+I tested the website with the W3C HTML Markup validation service and fixed anything that failed.
+<details><summary>HTML validation Screenshot</summary>
+<p>
+
+![html-validated](assets/readme.images/HTML-validator.png)
+
+</p>
+</details>
+
+## CSS validation 
+I tested the website with the W3C CSS Markup validation service and fixed anything that failed.
+<details><summary>CSS validation Screenshot</summary>
+<p>
+
+![CSS-validated](assets/readme.images/CSS-screenshot%20.png)
+
+</p>
+</details>
+
+<br>
+
+# Performance 
+Google lighthouse was used to test the performance of the website 
+
+<details><summary>Home Page</summary>
+<p>
+
+![Ligthouse](assets/readme.images/Home.report.png)
+
+</p>
+</details>
+
+<details><summary>Showroom</summary>
+<p>
+
+![Ligthouse](assets/readme.images/showroom.report.png)
+
+</p>
+</details>
+
+<details><summary>Contact</summary>
+<p>
+
+![Ligthouse](assets/readme.images/contact.report.png)
+
+</p>
+</details>
+
+<details><summary>About</summary>
+<p>
+
+![Lighthouse](assets/readme.images/about.report.png)
+
+</p>
+</details>
 
 
