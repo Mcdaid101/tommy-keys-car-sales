@@ -308,6 +308,38 @@ I tested the website with the W3C HTML Markup validation service and fixed anyth
 </p>
 </details>
 
+<details><summary>Index.html</summary>
+<p>
+
+![html-validated](assets/readme.images/index.html.validated.png)
+
+</p>
+</details>
+
+<details><summary>Showroom</summary>
+<p>
+
+![html-validated](assets/readme.images/showroom.html.validate.png)
+
+</p>
+</details>
+
+<details><summary>Contact</summary>
+<p>
+
+![html-validated](assets/readme.images/contact.html.validate.png)
+
+</p>
+</details>
+
+<details><summary>About</summary>
+<p>
+
+![html-validated](assets/readme.images/about.html.validate.png)
+
+</p>
+</details>
+
 ## CSS validation 
 I tested the website with the W3C CSS Markup validation service and fixed anything that failed.
 <details><summary>CSS validation Screenshot</summary>
@@ -350,7 +382,7 @@ Google lighthouse was used to test the performance of the website
 <details><summary>About</summary>
 <p>
 
-![Lighthouse](assets/readme.images/about.report.png)
+![Lighthouse](assets/readme.images/about-lighthouse-report.png)
 
 </p>
 </details>
@@ -634,6 +666,7 @@ I used the following commans throughout this project:
 * car8.jpg Photo by Velroy Fernandes from [Pexels](https://www.pexels.com/photo/a-black-hatchback-car-on-the-road-8984923/)
 * car-salesman.jpg Photo by Antoni Shkraba from [Pexels](https://www.pexels.com/photo/a-salesman-talking-to-a-couple-7144253/)
 * The youtube video on the About page is from [Hyundai Ireland](https://www.youtube.com/watch?v=uRTZN9vb7MI)
+* All other media is my own. 
 
 ## Acknowledgements 
 * I'd like to thank my mentor Ronan Mc Clelland for his help and advice through this project, especially for any additional resources he provided to help solve any bugs I was experiencing. 
