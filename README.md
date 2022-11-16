@@ -36,6 +36,19 @@
 
  8. [Testing](#testing)
  * [Testing User Stories](#testing-user-stories)
+
+ 9. [Bugs](#bugs)
+
+ 10. [Deployment](#deployment)
+ * [Creating this project](#creating-this-project)
+ * [Github pages](#github-pages)
+ * [To run locally](#to-run-locally)
+
+ 11. [Credits](#credits)
+ * [Code](#code)
+ * [media](#media)
+ * [Acknowledgements](#acknowledgements)
+
 <br>
 
 # Purpose
@@ -126,6 +139,10 @@ The main font family used is imported from the Google Fonts website and is calle
 ![Website Mock Up](assets/readme.images/about.screenshot.png)
 <br>
 
+### Differences to wireframes
+* Unable to get the menu nav bar to sit the way I planned in the wireframes.
+<br>
+
 # Technology Used 
 <br>
 
@@ -139,7 +156,7 @@ The main font family used is imported from the Google Fonts website and is calle
 * Github 
 * Google Fonts 
 * Font Awesome
-* GlassMorphism Generator 
+* GlassMorphism Generator from Glass Ui
 * Vs Code IDE in browser
 * Chrome developer tools 
 * Techsini Multi Device Mockup Generator used in this readme to display an image of the website on different devices 
@@ -333,38 +350,117 @@ Site fully functioning on each device and browser
 ## Testing User Stories
 <br>
 
-* As a first time user: I want to learn more about the site and easily navigate it.
+* As a first time user: I want to learn more about the site and easily navigate it. <br>
 Testing done to make sure that all links work so all users can easily navigate the page and eveyrthing is fully visible. 
+
+
+* As a first time user: I want to be able to learn more about the business. <br>
+ Testing done to ensure that the link to the about page is working and the text area and embedded youtube video is responsive to any device screen.
+
+
+* As a first time user: I want to engage with interactive content such as a video.<br>
+ Testing done to ensure the youtube video on the about page is capable of playing along with changing the level of audio, also ensured it is responsive to any device screen.
+
+
+* As a first time user: I want to find out where exactly the business is located. <br>
+ Testing done to ensure the link to the contact page is working and the embedded google map is functioning and showing the exact location of the car dealership. 
+
+
+* As a first time user: I want to be able to view the website clealry on my mobile phone. <br>
+ Testing done to ensure that the entire website is fully responsive to any mobile device using chrome developer tools and physical Iphone and Ipad. 
+
+
+* As a first time user: I want to be able to find contact information easily. <br>
+Testing done to ensure the links to the contact page are fully functioning and the contact form/box is fully visible and easily read. 
+
+
+* As a returning user: I want to be able to submit a call back request on the contact form. <br>
+ Testing done to ensure that the form on the about page has working input boxes with the correct input types, along with a functioning radio button and submit and reset buttons.
+
+
+*  As a returning user: I want to be able to book a test drive for a new car that is coming out. <br>
+ Testing done to ensure that the yes and no radio buttons that give the option of arranging a test drive are fully functioning along with the submit and reset form buttons. 
+
+
+* As a returning user: I want to find out what days and times the dealership is open.<br>
+Testing done to ensure the link to the contact page is working and the what time and days the business are open on.
+
+* As a frequent user: I want to view the online showroom to see what cars are available. <br>
+Testing done to ensure that the links to the showroom page are active and that every image of each car is easily visible and responsive to any device screen size.
+
+* As a frequent user: I want to check out the business's social medias which are linked to the site. <br>
+Testing done to ensure that each social media link on the footer of each page is working and sends the user to the correct site in a new tab. 
+
+* As a frequent user: I want to learn more about the business through their videos. <br>
+Testing done to ensure that the link to the about page is fully funcioning and the embedded youtube and it's functions are working and are responsive to any screen size. 
+
+* As the site owner: I want users to be able to contact the business easily. <br>
+Testing done to ensure that users on the site can easily navigate to the contact page and see the contact info clearly on the page along with a contact form which can be filled out to arrange a call back from the business. 
+
+* As the site owner: I want users to get to know my business. <br>
+Testing done to ensure that links to the about page are fully functioning and information about the business is clearly visible and presented well along with a functioning and fully resposive youtube video.
+
+* As the site owner: I want users to know where my business is located. <br>
+Testing done to ensure users can easily navigate to the contact section and see the location of the dealership on the fully responsive google maps which is displayed on the page. 
+
+# Bugs 
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+|Text on certain pages was hard to read against the image background beneath it.  | Used the glass morphism generator code from Glass Ui to blur the background slightly making the text more readable. |
+| The form and map on the Contact page were failing to fit on the page when viewed from a mobile |Changed the display to flex and used a media query to change the display from a column to a row. |
+| The user was able to submit the contact form with nothing inputted to the text boxes.  | Added a required attribute to the input fields. |
+| Youtube video failing to be responsive to any other device screen size than the one I had initially embedded it on. | Placed the Iframe within a container and gave it the position of relative and gave the Iframe itself a position of absolute, this made the youtube video responsive.  |
+
+# Deployment 
+
+## Creating this project
+This project was created by navigating to the Code Institute's student template and clicking the 'use this template' button. I then inputted the repository name "tommy-keys-car-sales" and included all branches. With the repository now created, I used the browser version of Vs Code to create the project. 
 <br>
 
-2. As a first time user: I want to be able to learn more about the business. 
-* Testing done to ensure that the link to the about page is working and the text area and embedded youtube video is responsive to any device screen.
-<br>
+I used the following commans throughout this project:
+* Git add . - This added my file to the staging area to be committed
+* Git commit -m - This command committed any changes to the local repository along with a message
+* Git push - pushed my changes to the github repository 
 
-3. As a first time user: I want to engage with interactive content such as a video.
-* Testing done to ensure the youtube video on the about page is capable of playing along with changing the level of audio, also ensured it is responsive to any device screen.
-<br>
+## Github pages 
+1. Navigate to the tommy-keys-car-sales repository 
+2. Click on settings
+3. Click on pages 
+4. Select 'master branch' as source 
+5. Then save 
+6. Link is then generated to go to the live page 
 
-4. As a first time user: I want to find out where exactly the business is located. 
-* Testing done to ensure the link to the contact page is working and the embedded google map is functioning and showing the exact location of the car dealership. 
-<br>
+## To run locally 
+1. Navigate to the tommy-keys-car-sales repository 
+2. Click the code drop down menu 
+3. Click download as Zip
+4. Open with IDE of choice 
+5. Or 
+6. open a terminal in an IDE and use git clone command followed by your git URL of the repository 
+7. The project will then be created in your IDE
 
-5. As a first time user: I want to be able to view the website clealry on my mobile phone. 
-* Testing done to ensure that the entire website is fully responsive to any mobile device using chrome developer tools and physical Iphone and Ipad. 
-<br>
+# Credits 
 
-6. As a first time user: I want to be able to find contact information easily. 
-* Testing done to ensure the links to the contact page are fully functioning and the contact form/box is fully visible and easily read. 
-<br>
+## Code 
+* The blurred effect over the hero image on the home page, behind the form and map and text on the contact page is taken from the GlassMorphism Generator from [Glass UI](https://ui.glass/generator/).
+* The showrooms gallery code and media query is inspired by the code institutes [love running project](https://github.com/Code-Institute-Solutions/Love-Running-Solutions).
+* The code which made the embedded youtube video on the about page responsive was taken from a youtube video by [TipswithPunch](https://www.youtube.com/watch?v=9YffrCViTVk)
 
-7. As a returning user: I want to be able to submit a call back request on the contact form. 
-* Testing done to ensure that the form on the about page has working input boxes with the correct input types, along with a functioning radio button and submit and reset buttons.
-<br>
+## Media 
+* Contact page background photo by Martin Katler on [Unsplash](https://unsplash.com/photos/ojet5e6Fzcc)
+* Home page background photo is by the Hyundai Motor Group on [Pexels](https://www.pexels.com/photo/front-view-of-white-hyundai-car-on-wet-road-11482358/)
+* car1.jpg by Hyundai Motor Group on [Pexels](https://www.pexels.com/photo/latest-model-of-hyundai-car-11158776/)
+* car2.jpg by Erik Mclean from [Pexels](https://www.pexels.com/photo/red-hyundai-parked-on-gray-concrete-pavement-4077271/)
+* car3.jpg Photo by Erik Mclean from [Pexels](https://www.pexels.com/photo/photo-of-white-car-on-wet-road-9846121/)
+* car4.jpg Photo by Louis de Gonzague Kubwimana from [Pexels](https://www.pexels.com/photo/photo-of-red-vehicle-on-the-road-9521979/)
+* car5.jpg Photo by As3dht from [Pexels](https://www.pexels.com/photo/hyundai-14158895/)
+* car7.jpg Photo by Hyundai Motor Group from [Pexels](https://www.pexels.com/photo/white-car-parked-in-the-garage-11194510/)
+* car8.jpg Photo by Velroy Fernandes from [Pexels](https://www.pexels.com/photo/a-black-hatchback-car-on-the-road-8984923/)
+* car-salesman.jpg Photo by Antoni Shkraba from [Pexels](https://www.pexels.com/photo/a-salesman-talking-to-a-couple-7144253/)
+* The youtube video on the About page is from [Hyundai Ireland](https://www.youtube.com/watch?v=uRTZN9vb7MI)
 
-8.  As a returning user: I want to be able to book a test drive for a new car that is coming out. 
-* Testing done to ensure that the yes and no radio buttons that give the option of arranging a test drive are fully functioning along with the submit and reset form buttons. 
-<br>
-
-9. As a returning user: I want to find out what days and times the dealership is open.
-
-
+## Acknowledgements 
+* I'd like to thank my mentor Ronan Mc Clelland for his help and advice through this project, especially for any additional resources he provided to help solve any bugs I was experiencing. 
+* My girlfriend Lucy for her help on some of the visual aspects of the website and her overall support. 
+* Anyone who has helped me on slack in my code institute cohort. 
+* And finally my grandfather Thomas keys who owns a car dealership and garage in Letterkenny, County Donegal and sold me my first car a Hyundai i30. The main inspiration behind this website. 
