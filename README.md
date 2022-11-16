@@ -424,8 +424,7 @@ Testing done to ensure the links to the contact page are fully functioning and t
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| |  | | Works as expected |
-| |  |  | Works as expected |
+|Contact button | Navigate to contact page and ensure link brings you there, ensure the contact information below the form is clearly visible applying a blurred background to make the text more readable  | Able to navigate to the contact page successfully and easily find the contact info | Works as expected |
 </p>
 </details>
 <br>
@@ -439,8 +438,7 @@ Testing done to ensure the links to the contact page are fully functioning and t
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| |  | | Works as expected |
-| |  |  | Works as expected |
+|Contact form |Navigate to the contact page, fill in the form entering your name, email and phone number and click submit form  | The contact form submits successfully | Works as expected |
 </p>
 </details>
 <br>
@@ -453,8 +451,8 @@ Testing done to ensure the links to the contact page are fully functioning and t
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| |  | | Works as expected |
-| |  |  | Works as expected |
+|Contact form |Navigate successfully to the contact form from the nav bar's page contact and fill in the form and click the yes radio button followed by submit |Code institute page will appear saying you have submitted your form successfully | Works as expected |
+|Book a test drive link on the home page | Navigate successfully to the contact form from the home page's book a test drive link and fill in the form and click the yes radio button followed by submit | Code institute page will appear saying you have submitted your form successfully | Works as expected |
 </p>
 </details>
 <br>
@@ -467,8 +465,8 @@ Testing done to ensure the link to the contact page is working and the what time
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| |  | | Works as expected |
-| |  |  | Works as expected |
+|Opening days and times at bottom of home page | Navigate to the bottom of the home page and view the opening times  | Opening times can be viewing clearly in a yellow color at the bottom of the home page | Works as expected |
+| Opening days and times at the bottom of the contact form | Navigate to the bottom of the contact page and view the opening times at the bottom of the form  | Opening times can be viewing clearly at the bottom of the form | Works as expected |
 </p>
 </details>
 <br>
@@ -482,8 +480,8 @@ Testing done to ensure that the links to the showroom page are active and that e
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| |  | | Works as expected |
-| |  |  | Works as expected |
+|Showroom button on nav bar  | Check link on the nav bar brings you to the showroom | Link on nav bar brings you to the showroom | Works as expected |
+| Link to view other cars on the home page |check link on home page brings you to showrooom | Link brings you to showroom  | Works as expected |
 </p>
 </details>
 <br>
@@ -496,8 +494,7 @@ Testing done to ensure that each social media link on the footer of each page is
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| |  | | Works as expected |
-| |  |  | Works as expected |
+|Footer |Check links on the footer bring you to each social medias site in a different tab | each icon's link brings you to its assigned social media website  | Works as expected |
 </p>
 </details>
 <br>
@@ -510,8 +507,7 @@ Testing done to ensure that the link to the about page is fully funcioning and t
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| |  | | Works as expected |
-| |  |  | Works as expected |
+|Youtube video | Navigate to about page and click on youtube video and check it plays  | Youtube video should be responsive to any device and have no problem playing video | Works as expected |
 </p>
 </details>
 <br>
@@ -525,8 +521,9 @@ Testing done to ensure that users on the site can easily navigate to the contact
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| |  | | Works as expected |
-| |  |  | Works as expected |
+|Contact button | Navigate to contact page and ensure link brings you there, ensure the contact information below the form is clearly visible applying a blurred background to make the text more readable  | Able to navigate to the contact page successfully and easily find the contact info | Works as expected |
+|Form | Navigate to contact page and ensure link brings you there, ensure the form can be submitted with the users details so the business can call them back | Able to navigate to the contact page successfully and easily find the contact info and submit the users details| Works as expected |
+| Footer| Ensure social media links work so user can contact business through them | the social media links bring the user to the business social media | Works as expected |
 </p>
 </details>
 <br>
@@ -539,8 +536,7 @@ Testing done to ensure that links to the about page are fully functioning and in
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| |  | | Works as expected |
-| |  |  | Works as expected |
+|About page | Check to see the about page can be navigated to, it's text is clearly visible against the hero image background and its youtube video can be played and is fully responsive on any device | About page navigated to easily and text is visible and everything is fully responsive | Works as expected |
 </p>
 </details>
 <br>
@@ -553,7 +549,7 @@ Testing done to ensure users can easily navigate to the contact section and see 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| |  | | Works as expected |
+|Map | Navigate to the contact page and see the google maps embedded live image of the dealership's location  | After navigating to the contact page you will see a google maps map of the dealerships exact location | Works as expected |
 | |  |  | Works as expected |
 </p>
 </details>
