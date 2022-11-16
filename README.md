@@ -59,7 +59,7 @@ You can find a link to the live website [here](https://mcdaid101.github.io/tommy
 
 ## Tommy Keys Car Sales
 ![Website Mock Up](assets/readme.images/Multi%20Screen%20screenshot%20.png)
-This website was built for Thomas Keys, a car dealership owner in the North West of Ireland. Mr Keys asked for a website which would be fully responsive and run across a multitude of devices such as phones, tablets and desktops and which would display his business in a positive light and bring more customers to the dealership. Mr Keys wanted a website to show his cars that were for sale, make it easy for customers to find the dealership and make contacting the dealership simple and also show people the story of his dealership and what they were about. 
+This website was built for Thomas Keys, a car dealership owner in the North West of Ireland. Mr Keys asked for a website which would be fully responsive and run across a multitude of devices such as phones, tablets and desktops and which would display his business in a positive light and bring more customers to the dealership. Mr Keys wanted a website to show his cars that were for sale, make it easy for customers to find the dealership and make contacting the dealership simple and also show people the story of his dealership and what they are about. 
 <br>
 
 # User Experience
@@ -71,10 +71,10 @@ This website was built for Thomas Keys, a car dealership owner in the North West
 <br>
 
 ## User Expectations 
-* Simple and easyily navigated website
-* Easy found information about the business 
+* Simple and easily navigated website
+* Information about the business that can be easily accessed
 * Fully functioning links and features 
-* Easy found contact info
+* Easyily found contact info
 * Good design and presentation 
 <br>
 
@@ -120,27 +120,49 @@ Each page on the site has the same header with the Tommy Keys Car Sales logo and
 <br>
 
 ## Colour
-The website was designed to look modern and futuristic and appealing to those looking for new sleek vehicles. The colors whitesmoke (#f5f5f5) and regular grey are the main colors of each webpage are used to replicate the colour theme of most modern car showrooms. Modern car Showrooms are full of light and bright white shades which highlight the cars inside and make them the center of attention, something I have tried to recreate in this website.
+The website was designed to look modern and futuristic and appealing to those looking for new sleek vehicles. The colors whitesmoke (#f5f5f5) and regular grey are the main colors of each webpage and are used to replicate the colour theme of most modern car showrooms around the globe today. Modern car Showrooms are full of light and bright white shades which highlight the cars inside and make them the center of attention, something I have tried to recreate in this website.
 For my elements with hover options I used a yellow colour (#e5cc5d) and a red colour (#e55d5d) to highlight being interacted with. 
 <br>
 
 ## Fonts
-The main font family used is imported from the Google Fonts website and is called 'Playfair Display', this font has been used extensively throughout the website as it looks professional and suits the theme of the website any other text areas are in 'sans serif' mainly which are less important and serve as non heading elements and text areas. 
+The main font family used is imported from the Google Fonts website and is called 'Playfair Display', this font has been used extensively throughout the website as it looks professional and suits the theme of the website. Any other text areas are in 'sans serif' mainly areas which are less important and serve as non heading elements and text areas. 
 <br>
 
 ## Wireframes
-### Home 
+
+<details><summary>Home</summary>
+<p>
+
 ![Website Mock Up](assets/readme.images/hscreenshot.png)
-### Showroom 
+</p>
+</details>
+
+<details><summary>Showroom</summary>
+<p>
+
 ![Website Mock Up](assets/readme.images/showscreenshots%20.png)
-### Contact 
+</p>
+</details>
+
+<details><summary>Contact</summary>
+<p>
+
 ![Website Mock Up](assets/readme.images/contactscreenshot.png)
-### About 
+</p>
+</details>
+
+<details><summary>About</summary>
+<p>
+
 ![Website Mock Up](assets/readme.images/about.screenshot.png)
+</p>
+</details>
+
 <br>
 
 ### Differences to wireframes
 * Unable to get the menu nav bar to sit the way I planned in the wireframes.
+
 <br>
 
 # Technology Used 
@@ -563,6 +585,8 @@ Testing done to ensure users can easily navigate to the contact section and see 
 | The form and map on the Contact page were failing to fit on the page when viewed from a mobile |Changed the display to flex and used a media query to change the display from a column to a row. |
 | The user was able to submit the contact form with nothing inputted to the text boxes.  | Added a required attribute to the input fields. |
 | Youtube video failing to be responsive to any other device screen size than the one I had initially embedded it on. | Placed the Iframe within a container and gave it the position of relative and gave the Iframe itself a position of absolute, this made the youtube video responsive.  |
+
+<br>
 
 # Deployment 
 
