@@ -290,6 +290,11 @@ This website contains 4 webpages
 * Frequent user stories: 3.     
 * Site owner needs: 2. 
 
+## 404 page
+![404 page](assets/readme.images/404page2.png)
+* 404 page if something goes wrong.
+
+<br>
 
 </p>
 </details>
@@ -653,6 +658,7 @@ I used the following commans throughout this project:
 * The blurred effect over the hero image on the home page, behind the form and map and text on the contact page is taken from the GlassMorphism Generator from [Glass UI](https://ui.glass/generator/).
 * The showrooms gallery code and media query is inspired by the code institutes [love running project](https://github.com/Code-Institute-Solutions/Love-Running-Solutions).
 * The code which made the embedded youtube video on the about page responsive was taken from a youtube video by [TipswithPunch](https://www.youtube.com/watch?v=9YffrCViTVk)
+* The code for my 404.html page is taken from the Daft.DEV Blog, [a blog explaining how to set up your own 404 page](https://draft.dev/learn/github-pages-404).
 
 ## Media 
 * Contact page background photo by Martin Katler on [Unsplash](https://unsplash.com/photos/ojet5e6Fzcc)
