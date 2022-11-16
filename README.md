@@ -334,6 +334,7 @@ Google lighthouse was used to test the performance of the website
 </details>
 <br>
 
+
 ## Performance testing using different devices/browers
 The website was tested on three devices:
 * Apple Ipad Air 
@@ -350,60 +351,216 @@ Site fully functioning on each device and browser
 ## Testing User Stories
 <br>
 
+## First time stories 
 * As a first time user: I want to learn more about the site and easily navigate it. <br>
 Testing done to make sure that all links work so all users can easily navigate the page and eveyrthing is fully visible. 
+<details><summary>First time user 1</summary>
+<p>
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Nav bar | Check links on nav bar bring you to same page they are named after | Links when clicked bring you to page they are named after | Works as expected |
+</p>
+</details>
+<br>
+<br>
 
 * As a first time user: I want to be able to learn more about the business. <br>
  Testing done to ensure that the link to the about page is working and the text area and embedded youtube video is responsive to any device screen.
+<details><summary>First time user 2</summary>
+<p>
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About page | Click on about on nav bar and check that link brings you to about page | About button brings user to About page where they can learn more about the business | Works as expected |
+</p>
+</details>
+<br>
+<br>
 
 * As a first time user: I want to engage with interactive content such as a video.<br>
  Testing done to ensure the youtube video on the about page is capable of playing along with changing the level of audio, also ensured it is responsive to any device screen.
+<details><summary>First time user 3</summary>
+<p>
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Youtube video | Navigate to about page and click on youtube video and check it plays  | Youtube video should be responsive to any device and have no problem playing video | Works as expected |
+</p>
+</details>
+<br>
+<br>
 
 * As a first time user: I want to find out where exactly the business is located. <br>
  Testing done to ensure the link to the contact page is working and the embedded google map is functioning and showing the exact location of the car dealership. 
+<details><summary>First time user 4</summary>
+<p>
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Map |Navigate to the contact page and view the embedded google maps of dealership location  | Google maps should be seen on any device screen as it is fully responsive | Works as expected |
+</p>
+</details>
+<br>
+<br>
 
 * As a first time user: I want to be able to view the website clealry on my mobile phone. <br>
  Testing done to ensure that the entire website is fully responsive to any mobile device using chrome developer tools and physical Iphone and Ipad. 
+<details><summary>First time user 5</summary>
+<p>
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Entire website |Checked through chrome developer tools that the site is fully responsive across different screen sizes | The website is responsive over any screen size | Works as expected |
+</p>
+</details>
+<br>
+<br>
 
 * As a first time user: I want to be able to find contact information easily. <br>
 Testing done to ensure the links to the contact page are fully functioning and the contact form/box is fully visible and easily read. 
+<details><summary>First time user 6</summary>
+<p>
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| |  | | Works as expected |
+| |  |  | Works as expected |
+</p>
+</details>
+<br>
+<br>
 
+## Returning stories 
 * As a returning user: I want to be able to submit a call back request on the contact form. <br>
  Testing done to ensure that the form on the about page has working input boxes with the correct input types, along with a functioning radio button and submit and reset buttons.
+<details><summary>Returning user 1</summary>
+<p>
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| |  | | Works as expected |
+| |  |  | Works as expected |
+</p>
+</details>
+<br>
+<br>
 
 *  As a returning user: I want to be able to book a test drive for a new car that is coming out. <br>
  Testing done to ensure that the yes and no radio buttons that give the option of arranging a test drive are fully functioning along with the submit and reset form buttons. 
+<details><summary>Returning user 2</summary>
+<p>
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| |  | | Works as expected |
+| |  |  | Works as expected |
+</p>
+</details>
+<br>
+<br>
 
 * As a returning user: I want to find out what days and times the dealership is open.<br>
 Testing done to ensure the link to the contact page is working and the what time and days the business are open on.
+<details><summary>Returning user 3</summary>
+<p>
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| |  | | Works as expected |
+| |  |  | Works as expected |
+</p>
+</details>
+<br>
+<br>
+
+## Frequent stories 
 * As a frequent user: I want to view the online showroom to see what cars are available. <br>
 Testing done to ensure that the links to the showroom page are active and that every image of each car is easily visible and responsive to any device screen size.
+<details><summary>Frequent user 1</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| |  | | Works as expected |
+| |  |  | Works as expected |
+</p>
+</details>
+<br>
+<br>
 
 * As a frequent user: I want to check out the business's social medias which are linked to the site. <br>
 Testing done to ensure that each social media link on the footer of each page is working and sends the user to the correct site in a new tab. 
+<details><summary>Frequent user 2</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| |  | | Works as expected |
+| |  |  | Works as expected |
+</p>
+</details>
+<br>
+<br>
 
 * As a frequent user: I want to learn more about the business through their videos. <br>
 Testing done to ensure that the link to the about page is fully funcioning and the embedded youtube and it's functions are working and are responsive to any screen size. 
+<details><summary>Frequent user 3</summary>
+<p>
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| |  | | Works as expected |
+| |  |  | Works as expected |
+</p>
+</details>
+<br>
+<br>
+
+## Owner stories 
 * As the site owner: I want users to be able to contact the business easily. <br>
 Testing done to ensure that users on the site can easily navigate to the contact page and see the contact info clearly on the page along with a contact form which can be filled out to arrange a call back from the business. 
+<details><summary>Site owner 1</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| |  | | Works as expected |
+| |  |  | Works as expected |
+</p>
+</details>
+<br>
+<br>
 
 * As the site owner: I want users to get to know my business. <br>
 Testing done to ensure that links to the about page are fully functioning and information about the business is clearly visible and presented well along with a functioning and fully resposive youtube video.
+<details><summary>Site owner 2</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| |  | | Works as expected |
+| |  |  | Works as expected |
+</p>
+</details>
+<br>
+<br>
 
 * As the site owner: I want users to know where my business is located. <br>
 Testing done to ensure users can easily navigate to the contact section and see the location of the dealership on the fully responsive google maps which is displayed on the page. 
+<details><summary>Site owner 3</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| |  | | Works as expected |
+| |  |  | Works as expected |
+</p>
+</details>
+<br>
 
 # Bugs 
+
 | **Bug** | **Fix** |
 | ----------- | ----------- |
 |Text on certain pages was hard to read against the image background beneath it.  | Used the glass morphism generator code from Glass Ui to blur the background slightly making the text more readable. |
