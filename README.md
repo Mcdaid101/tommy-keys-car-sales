@@ -32,7 +32,10 @@
  * [CSS validation](#css-validation)
 
  7. [Performance](#performance)
- 
+ * [Performance testing using different devices](#performance-testing-using-different-devices/browsers)
+
+ 8. [Testing](#testing)
+ * [Testing User Stories](#testing-user-stories)
 <br>
 
 # Purpose
@@ -68,9 +71,10 @@ This website was built for Thomas Keys, a car dealership owner in the North West
 ### As a first time user:
 1. I want to learn more about the site and easily navigate it.
 2. I want to be able to learn more about the business. 
-3. I want to find out where exactly the business is located. 
-4. I want to be able to view the website clealry on my mobile phone. 
-5. I want to be able to find contact information easily. 
+3. I want to engage with interactive content such as a video.
+4. I want to find out where exactly the business is located. 
+5. I want to be able to view the website clealry on my mobile phone. 
+6. I want to be able to find contact information easily. 
 <br>
 
 ### As a returning user:
@@ -136,7 +140,9 @@ The main font family used is imported from the Google Fonts website and is calle
 * Google Fonts 
 * Font Awesome
 * GlassMorphism Generator 
-* Vs Code in browser
+* Vs Code IDE in browser
+* Chrome developer tools 
+* Techsini Multi Device Mockup Generator used in this readme to display an image of the website on different devices 
 <br>
 
 # Features
@@ -161,18 +167,33 @@ This website contains 4 webpages
 * It is fully responsive to different screen sizes 
 <br>
 
+* The Footer covers the first time user stories: 4.    
+* Frequent user stories: 2.    
+* Site owner needs: 2. 
+
 
 ## Home page
 ![Home Page](assets/readme.images/home.page.png)
 * This is the home page the first page users see
-* Users have a link to the contact page through the book a test drive link and a link to the showroom to view other cars 
+* Users have a link to the contact page through the book a test drive link
+* Users have a link to the showroom to view other cars and 
+* The dealership's opening times can be viewed at bottom of the page
 <br>
+
+* The Home page helps meet the first time user stories: 1, 4.
+* Returning user stories: 2, 3.      
+* Frequent user stories: 1, 2.     
+* Site owner needs: 1, 2. 
 
 ## Showroom 
 ![Showroom Page](assets/readme.images/showroom.page.png)
 * Showroom contains a gallery of cars 
 * The gallery is fully responsive to any device screen 
 <br>
+
+* The Showroom helps meet the first time user stories: 4.     
+* Frequent user stories: 1, 2.     
+* Site owner needs: 2. 
 
 ## Contact 
 ![Contact Page](assets/readme.images/contact.page.png)
@@ -183,6 +204,11 @@ This website contains 4 webpages
 * This page is fully responsive to any device screen 
 <br>
 
+* The Contact page helps meet the first time user stories: 3, 4, 5.
+* Returning user stories: 1, 2, 3.      
+* Frequent user stories: 2.     
+* Site owner needs: 1, 3. 
+
 ## Form 
 ![Contact Page](assets/readme.images/form.png)
 * The form is used as a contact point for users 
@@ -191,11 +217,18 @@ This website contains 4 webpages
 * Fully responsive to any device screen size 
 <br>
 
+* The Contact page helps meet the first time user stories: 5.
+* Returning user stories: 1, 2, 3.          
+* Site owner needs: 1. 
+
 ## Map 
 ![Contact Page](assets/readme.images/map.png)
 * An embedded google maps location of the dealership 
 * Fully responsive to any device screen size 
 <br>
+
+* The Map helps meet the first time user stories: 3.   
+* Site owner needs: 3. 
 
 ## About 
 ![About Page](assets/readme.images/top.about.page.png)
@@ -204,11 +237,20 @@ This website contains 4 webpages
 * This page is fully responsive to any device screen 
 <br>
 
+* The About page helps meet the first time user stories: 1, 2, 3, 5.      
+* Frequent user stories: 2, 3.     
+* Site owner needs: 2. 
+
 ## Youtube video
 ![Contact Page](assets/readme.images/youtubevid.png)
 * An embedded youtube video of the story of Tommmy Keys car sales
 * Fully responsive to any device screen size 
 <br>
+
+* The Youtube video helps meet the first time user stories: 2, 3.     
+* Frequent user stories: 3.     
+* Site owner needs: 2. 
+
 
 </p>
 </details>
@@ -273,5 +315,56 @@ Google lighthouse was used to test the performance of the website
 
 </p>
 </details>
+<br>
+
+## Performance testing using different devices/browers
+The website was tested on three devices:
+* Apple Ipad Air 
+* Apple Iphone XR 
+* ASUS vivobook 
+* Chrome developer tools were also used in the testing process with its many different device toggling options. 
+The following browsers were used in compatability testing:
+* Google Chrome 
+* Microsoft Edge
+Site fully functioning on each device and browser 
+
+# Testing 
+
+## Testing User Stories
+<br>
+
+* As a first time user: I want to learn more about the site and easily navigate it.
+Testing done to make sure that all links work so all users can easily navigate the page and eveyrthing is fully visible. 
+<br>
+
+2. As a first time user: I want to be able to learn more about the business. 
+* Testing done to ensure that the link to the about page is working and the text area and embedded youtube video is responsive to any device screen.
+<br>
+
+3. As a first time user: I want to engage with interactive content such as a video.
+* Testing done to ensure the youtube video on the about page is capable of playing along with changing the level of audio, also ensured it is responsive to any device screen.
+<br>
+
+4. As a first time user: I want to find out where exactly the business is located. 
+* Testing done to ensure the link to the contact page is working and the embedded google map is functioning and showing the exact location of the car dealership. 
+<br>
+
+5. As a first time user: I want to be able to view the website clealry on my mobile phone. 
+* Testing done to ensure that the entire website is fully responsive to any mobile device using chrome developer tools and physical Iphone and Ipad. 
+<br>
+
+6. As a first time user: I want to be able to find contact information easily. 
+* Testing done to ensure the links to the contact page are fully functioning and the contact form/box is fully visible and easily read. 
+<br>
+
+7. As a returning user: I want to be able to submit a call back request on the contact form. 
+* Testing done to ensure that the form on the about page has working input boxes with the correct input types, along with a functioning radio button and submit and reset buttons.
+<br>
+
+8.  As a returning user: I want to be able to book a test drive for a new car that is coming out. 
+* Testing done to ensure that the yes and no radio buttons that give the option of arranging a test drive are fully functioning along with the submit and reset form buttons. 
+<br>
+
+9. As a returning user: I want to find out what days and times the dealership is open.
 
 
