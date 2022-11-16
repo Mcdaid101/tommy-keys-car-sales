@@ -16,7 +16,7 @@ body {
 #logo {
     float: left;
     font-size: 250%;
-    margin-left: 50px;
+    margin-left: 50px;                       /* logo styling */
     line-height: 75px;
     font-family: 'Playfair Display', sans-serif;
 }
@@ -31,7 +31,7 @@ color: black;
 
 #menu li {
     color: black;
-    float: right;
+    float: right;                                               /* menu/ nav bar styling */
     margin-right: 50px;
     list-style: none;
     font-family: 'Playfair Display', sans-serif;
@@ -44,14 +44,14 @@ color: black;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #e55d5d;
+    border-bottom: 1px solid #e55d5d;                                /* hover effect on nav bar */
 }
 
 #hero-image {
     height: 100%;
     width: 100%;
     background: url('../images/hero-image1.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: cover;                                                    /* home page hero image */
     overflow: hidden;
 }
 
@@ -101,7 +101,7 @@ color: black;
     text-align: center;
     margin-top: 50px;
     text-transform: uppercase;
-    margin-bottom: 200px;
+    margin-bottom: 200px;                                              /* hero 1-5 are the texts on the home page */
     color:#e5cc5d;
 }
 
@@ -119,7 +119,7 @@ a{
     -webkit-backdrop-filter: blur(0px) saturate(100%);
     background-color: rgba(255, 255, 255, 0.29);
     border-radius: 12px;
-    border: 1px solid rgba(209, 213, 219, 0.3);
+    border: 1px solid rgba(209, 213, 219, 0.3);                        /* blurred glass effect over the hero image from glass ui*/
 }
 
 /* footer */
@@ -132,7 +132,7 @@ footer {
     bottom: 0;
     right: 0;
     z-index: 3;
-}
+}                                                         
 
 .social-media {
     color: black;
@@ -143,7 +143,7 @@ footer {
 .social-media > li {
     font-size: 200%;
     margin: 1%;
-    padding: 3%;
+    padding: 3%;                               /* social media icons */
     color: black;
     display: inline;
 }
@@ -172,7 +172,7 @@ footer {
 
 #contact-image {
     height: 750px;
-    width: 100%;
+    width: 100%;                                                               /* background image on contact page */
     background: url('../images/hero-image2.1.jpg') no-repeat center center;
     background-size: cover;
     overflow: hidden;
@@ -209,7 +209,7 @@ footer {
 .filter {
     backdrop-filter: blur(0px) saturate(200%);
     -webkit-backdrop-filter: blur(0px) saturate(200%);
-    background-color: rgba(255, 255, 255, 0.71);
+    background-color: rgba(255, 255, 255, 0.71);                /* blurred glass filter */
     border-radius: 12px;
     border: 1px solid rgba(209, 213, 219, 0.3);
 }
@@ -249,7 +249,7 @@ footer {
     height: 0;
     margin-top: 5%;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 10px;                /* this makes the youtube video responsive */
 }
 .iframe-container iframe {
     position: absolute;
@@ -269,12 +269,12 @@ footer {
 /*media queries*/
 @media screen and (max-width: 800px){
     .showroom-photos {
-        column-count: 2;
+        column-count: 2;                  /* drops the showroom gallery to 2 cars per column */
     }
 
     .home{
         font-size: 150%;
-    }
+    }                                                              
 
     #hero-text, #hero2, #hero3, #hero4, #hero5 {
         font-size: 75%;
@@ -302,14 +302,14 @@ footer {
         flex-direction: column;
         font-size: 55%;
         clear: both;
-        gap: 50px;
+        gap: 50px;                   /* change flex direction to fit on smaller screens */
     }
 
     .contact-div map {
         font-size: 10%;
         height: 300px;
         width: 200px; 
-        float: left;
+        float: left;                 
     }
 
     #contact-image {
