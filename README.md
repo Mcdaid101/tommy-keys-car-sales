@@ -572,7 +572,6 @@ Testing done to ensure users can easily navigate to the contact section and see 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |Map | Navigate to the contact page and see the google maps embedded live image of the dealership's location  | After navigating to the contact page you will see a google maps map of the dealerships exact location | Works as expected |
-| |  |  | Works as expected |
 </p>
 </details>
 <br>
